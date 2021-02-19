@@ -17,8 +17,6 @@ public class TakingInput {
         System.out.println("Enter marks of sub5");
         float e= sc.nextInt();
         float sum=a+b+c+d+e;
-        //String str= sc.next();
-        //String str=sc.nextLine();
         float per = sum / tot * 100f;
         System.out.println("Your Percentage is: ");
         System.out.println(per);
